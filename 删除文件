@@ -1,0 +1,10 @@
+概述:通过Git指令删除文件
+1.创建新文件夹用于承载存储库
+2.在新建文件夹中鼠标右键菜单打开命令行 -> Open Git Bash here
+3.在新建文件夹中创建存储库副本 -> git clone (此处内容从存储库的Code菜单复制)    eg:git clone EXAMPLE
+4.设置目标文件夹 -> cd (路径)                                                  eg:cd C:\Users\YourUsername\YourRepository
+5.查看所有文件的文件名 -> dir                                                  eg:dir
+6.删除文件 -> git rm -r --cached (文件名)                                      eg:rm example.txt
+7.提交日志 -> git commit -m "日志内容"                                         eg:git commit -m "Remove example.txt"
+8.应用修改 -> git push origin (分支名)                                         eg:git push origin main
+应用修改时可能会提示要求登录，登录语句在提示中有写，登录后修改完成
